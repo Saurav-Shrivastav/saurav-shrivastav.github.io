@@ -1,0 +1,147 @@
+baseurl      = "localhost"
+title        = "Saurav Shrivastav"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  experience = "/experience/:year/:month/:title/"
+
+[author]
+  name = "Saurav Shrivastav"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Software Engineer of sorts"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Software Engineer Portfolio"
+  keywords = "Portfolio, Saurav Shrivastav, Software Engineer, Backend, Engineer, Developer"
+  images = [""]
+
+  enableThemeToggle = true
+  enableGlobalLanguageMenu = true
+
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/Saurav-Shrivastav\">Saurav</a>"
+    ]
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/saurav-shrivastav/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/Saurav-Shrivastav"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:sauravsrivastav103@gmail.com"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/_saurav_23"
+
+  [[params.social]]
+    name = "medium"
+    url  = "https://saurav-shrivastav.medium.com"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/_saurav_shrivastav_/"
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Saurav Shrivastav"
+    subtitle = "Software Engineer of sorts"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoMark     = ">"
+      logoText     = "$ cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "https://blog.saurav-shrivastav.online/"
+    linkTarget = "_blank"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "experience"
+    name       = "Experience"
+    url        = "experience/"
