@@ -141,7 +141,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
+   [[menu.main]]
     identifier = "experience"
     name       = "Experience"
     url        = "experience/"
