@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "/"
 title        = "Saurav Shrivastav"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
