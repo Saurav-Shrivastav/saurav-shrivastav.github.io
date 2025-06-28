@@ -32,7 +32,7 @@ Writing helps me:
 I'll be posting regularly, so make sure to check back often. You can also connect with me through the [contact page](/contact/) or follow me on social media.
 
 Thanks for visiting, and I hope you find the content valuable!
-
+<!-- 
 ---
 
-*This is a sample blog post. You can edit or delete it and create your own content.*
+*This is a sample blog post. You can edit or delete it and create your own content.* -->
