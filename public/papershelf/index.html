@@ -11,7 +11,11 @@
     
     <link rel="stylesheet" href="/css/main.min.css">
     
-    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg">
+    <meta name="theme-color" content="#28a745">
 </head>
 <body>
     <header>
@@ -40,13 +44,11 @@
     <main>
         <div class="container">
             
-<h1>Papershelf</h1>
 
-
-<p>A curated collection of research papers, articles, and books that have influenced my thinking and work. This is my digital bookshelf where I share resources that I find valuable and worth revisiting.</p>
-<h2 id="featured-papers--books">Featured Papers &amp; Books</h2>
-<p>For detailed reviews and my personal notes on papers, visit my <a href="/papers/">Papers section</a> where I share in-depth analysis and insights.</p>
-<h2 id="reading-philosophy">Reading Philosophy</h2>
+<div class="papershelf-intro">
+    <h1>Papershelf</h1>
+    <p>A curated collection of research papers, articles, and books that have influenced my thinking and work. Each entry includes my detailed notes, key insights, and personal analysis.</p>
+<h3 id="my-approach">My Approach</h3>
 <p>I believe in:</p>
 <ul>
 <li><strong>Deep reading</strong>: Taking detailed notes and reflecting on key insights</li>
@@ -54,64 +56,146 @@
 <li><strong>Practical application</strong>: Understanding how research applies to real-world problems</li>
 <li><strong>Sharing knowledge</strong>: Making research accessible through clear explanations</li>
 </ul>
-<h2 id="current-areas-of-interest">Current Areas of Interest</h2>
+<h3 id="current-areas-of-interest">Current Areas of Interest</h3>
 <ul>
 <li><strong>Distributed Systems</strong>: Consensus algorithms, consistency models, fault tolerance</li>
 <li><strong>Database Systems</strong>: Storage engines, query optimization, transaction processing</li>
 <li><strong>System Design</strong>: Scalability patterns, performance optimization, reliability</li>
 <li><strong>Software Engineering</strong>: Code quality, testing strategies, development practices</li>
 </ul>
-<hr>
-<p><em>Visit the <a href="/papers/">Papers section</a> for detailed reviews and notes on specific papers.</em></p>
-<h2 id="current-reading">Current Reading</h2>
-<h3 id="research-papers">Research Papers</h3>
-<div class="paper-item">
-<div class="paper-title">Designing Data-Intensive Applications</div>
-<div class="paper-authors">Martin Kleppmann</div>
-<div class="paper-venue">O'Reilly Media, 2017</div>
-<p>An excellent deep dive into the fundamentals of distributed systems, data storage, and processing. Essential reading for understanding how to build scalable applications.</p>
-</div>
-<div class="paper-item">
-<div class="paper-title">The Google File System</div>
-<div class="paper-authors">Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung</div>
-<div class="paper-venue">SOSP 2003</div>
-<p>Foundational paper on distributed file systems that influenced many modern distributed storage solutions.</p>
-</div>
-<div class="paper-item">
-<div class="paper-title">MapReduce: Simplified Data Processing on Large Clusters</div>
-<div class="paper-authors">Jeffrey Dean, Sanjay Ghemawat</div>
-<div class="paper-venue">OSDI 2004</div>
-<p>Revolutionary approach to processing large datasets that spawned numerous big data frameworks.</p>
-</div>
-<h2 id="recommended-books">Recommended Books</h2>
-<h3 id="system-design--architecture">System Design &amp; Architecture</h3>
-<ul>
-<li><strong>&ldquo;Building Microservices&rdquo;</strong> by Sam Newman</li>
-<li><strong>&ldquo;Release It!&rdquo;</strong> by Michael Nygard</li>
-<li><strong>&ldquo;Site Reliability Engineering&rdquo;</strong> by Google</li>
-</ul>
-<h3 id="programming--software-engineering">Programming &amp; Software Engineering</h3>
-<ul>
-<li><strong>&ldquo;Clean Code&rdquo;</strong> by Robert C. Martin</li>
-<li><strong>&ldquo;Effective Java&rdquo;</strong> by Joshua Bloch</li>
-<li><strong>&ldquo;The Pragmatic Programmer&rdquo;</strong> by David Thomas and Andrew Hunt</li>
-</ul>
-<h3 id="distributed-systems">Distributed Systems</h3>
-<ul>
-<li><strong>&ldquo;Distributed Systems: Concepts and Design&rdquo;</strong> by George Coulouris</li>
-<li><strong>&ldquo;Consensus: Bridging Theory and Practice&rdquo;</strong> by Diego Ongaro (PhD Thesis)</li>
-</ul>
-<h2 id="articles--blog-posts">Articles &amp; Blog Posts</h2>
-<ul>
-<li><a href="http://highscalability.com/">High Scalability</a> - Case studies of scalable systems</li>
-<li><a href="https://aws.amazon.com/architecture/">AWS Architecture Center</a> - Real-world architecture patterns</li>
-<li><a href="https://research.google/pubs/">Google Research Publications</a> - Cutting-edge research papers</li>
-</ul>
-<h2 id="want-to-discuss">Want to Discuss?</h2>
-<p>Found something interesting here or have recommendations for me? I&rsquo;d love to discuss these topics! Feel free to <a href="/contact/">reach out</a>.</p>
-<hr>
-<p><em>This papershelf is continuously updated as I discover new resources and revisit classics.</em></p>
+<p>Browse through my reviews and notes below, where I share in-depth analysis of papers that have shaped my understanding of computer science and software engineering.</p>
 
+</div>
+
+
+<section class="papershelf-list">
+    <h2>My Paper Notes & Reviews</h2>
+    
+    <div class="paper-highlights">
+        
+        <div class="paper-item">
+            <div class="paper-title"><a href="http://localhost:1313/papershelf/designing-data-intensive-applications/">Designing Data-Intensive Applications</a></div>
+            
+            <div class="paper-authors">Martin Kleppmann</div>
+            
+            
+            <div class="paper-venue">
+                O&#39;Reilly Media
+                , 
+                2017
+            </div>
+            
+            
+            <p>An excellent deep dive into the fundamentals of distributed systems, data storage, and processing.</p>
+            
+            <div class="paper-actions">
+                <a href="http://localhost:1313/papershelf/designing-data-intensive-applications/" class="view-notes">Read My Notes →</a>
+                
+                <a href="https://dataintensive.net/" target="_blank" class="paper-link">Original Paper →</a>
+                
+            </div>
+            <div class="paper-meta">
+                <time datetime="2025-06-28">June 28, 2025</time>
+                
+                | Tags: 
+                
+                    
+                    <span class="tag">distributed-systems</span>
+                
+                    , 
+                    <span class="tag">databases</span>
+                
+                    , 
+                    <span class="tag">system-design</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="paper-item">
+            <div class="paper-title"><a href="http://localhost:1313/papershelf/google-file-system/">The Google File System</a></div>
+            
+            <div class="paper-authors">Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung</div>
+            
+            
+            <div class="paper-venue">
+                SOSP 2003
+                , 
+                2003
+            </div>
+            
+            
+            <p>Foundational paper on distributed file systems that influenced many modern distributed storage solutions.</p>
+            
+            <div class="paper-actions">
+                <a href="http://localhost:1313/papershelf/google-file-system/" class="view-notes">Read My Notes →</a>
+                
+                <a href="https://research.google.com/archive/gfs.html" target="_blank" class="paper-link">Original Paper →</a>
+                
+            </div>
+            <div class="paper-meta">
+                <time datetime="2025-06-27">June 27, 2025</time>
+                
+                | Tags: 
+                
+                    
+                    <span class="tag">distributed-systems</span>
+                
+                    , 
+                    <span class="tag">file-systems</span>
+                
+                    , 
+                    <span class="tag">google</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="paper-item">
+            <div class="paper-title"><a href="http://localhost:1313/papershelf/mapreduce/">MapReduce: Simplified Data Processing on Large Clusters</a></div>
+            
+            <div class="paper-authors">Jeffrey Dean, Sanjay Ghemawat</div>
+            
+            
+            <div class="paper-venue">
+                OSDI 2004
+                , 
+                2004
+            </div>
+            
+            
+            <p>Revolutionary approach to processing large datasets that spawned numerous big data frameworks.</p>
+            
+            <div class="paper-actions">
+                <a href="http://localhost:1313/papershelf/mapreduce/" class="view-notes">Read My Notes →</a>
+                
+                <a href="https://research.google.com/archive/mapreduce.html" target="_blank" class="paper-link">Original Paper →</a>
+                
+            </div>
+            <div class="paper-meta">
+                <time datetime="2025-06-26">June 26, 2025</time>
+                
+                | Tags: 
+                
+                    
+                    <span class="tag">distributed-systems</span>
+                
+                    , 
+                    <span class="tag">big-data</span>
+                
+                    , 
+                    <span class="tag">google</span>
+                
+                    , 
+                    <span class="tag">parallel-computing</span>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    
+</section>
 
         </div>
     </main>
@@ -144,10 +228,10 @@
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <div class="social-links">
-                        <a href="mailto:your.email@example.com" title="Email">Email</a>
-                        <a href="https://github.com/yourusername" title="GitHub" target="_blank">GitHub</a>
-                        <a href="https://linkedin.com/in/yourprofile" title="LinkedIn" target="_blank">LinkedIn</a>
-                        <a href="https://twitter.com/yourusername" title="Twitter" target="_blank">Twitter</a>
+                        <a href="mailto:sauravsrivastav103@gmail.com" title="Email">Email</a>
+                        <a href="https://github.com/Saurav-Shrivastav" title="GitHub" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/sauravsrivastav" title="LinkedIn" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/_saurav_23" title="Twitter" target="_blank">Twitter</a>
                     </div>
                 </div>
             </div>
