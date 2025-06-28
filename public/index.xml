@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Saurav Shrivastav</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Saurav Shrivastav</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div class=&#34;about-header&#34;&gt;&#xA;    &lt;div class=&#34;about-text&#34;&gt;&#xA;        &lt;p&gt;I&#39;m &lt;span class=&#34;highlight-name&#34;&gt;Saurav Shrivastav&lt;/span&gt;, a software engineer who believes that the best way to understand complex systems is to build them. Currently working on Hadoop infrastructure at LinkedIn in Bangalore, I&#39;ve spent my career scaling distributed systems and contributing to open source projects.&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;about-image&#34;&gt;&#xA;        &lt;img src=&#34;http://localhost:1313/images/profile.jpg&#34; alt=&#34;Saurav Shrivastav&#34; class=&#34;profile-photo&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;&#xA;&lt;p&gt;My journey into software engineering began at Thapar Institute of Engineering &amp;amp; Technology, where I discovered my passion for building systems that solve real problems. College was transformative - I led the Google Developer Student Club (GDSC), where I organized hackathons, gave talks, and worked on small projects to solve problems with software. Most importantly, I found incredible mentors who shaped my approach to both technology and leadership.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;d love to hear from you! Whether you want to discuss technology, collaborate on a project, or just say hello, feel free to reach out through any of the channels below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-email&#34;&gt;📧 Email&lt;/h3&gt;&#xA;&lt;p&gt;For detailed discussions, collaboration proposals, or professional inquiries&lt;br&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;mailto:sauravsrivastav103@gmail.com&#34;&gt;sauravsrivastav103@gmail.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;-linkedin&#34;&gt;💼 LinkedIn&lt;/h3&gt;&#xA;&lt;p&gt;For professional networking and career-related conversations&lt;br&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;https://www.linkedin.com/in/saurav-shrivastav/&#34;&gt;linkedin.com/in/sauravsrivastav&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;-github&#34;&gt;⚡ GitHub&lt;/h3&gt;&#xA;&lt;p&gt;Check out my code, open issues, or start discussions about my projects&lt;br&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;https://github.com/Saurav-Shrivastav&#34;&gt;github.com/Saurav-Shrivastav&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;-twitter&#34;&gt;🐦 Twitter&lt;/h3&gt;&#xA;&lt;p&gt;For quick questions, tech discussions, or just to say hi&lt;br&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;https://x.com/_saurav_23&#34;&gt;@_saurav_23&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Designing Data-Intensive Applications</title>
+      <link>http://localhost:1313/papershelf/designing-data-intensive-applications/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/designing-data-intensive-applications/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;This book provides a comprehensive guide to building reliable, scalable, and maintainable applications that handle large amounts of data. Kleppmann covers the fundamental principles behind distributed data systems and the trade-offs involved in their design.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data models and query languages&lt;/strong&gt;: Understanding the strengths and weaknesses of relational, document, and graph databases&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage and retrieval&lt;/strong&gt;: How databases store data on disk and in memory, including indexing strategies&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distributed data challenges&lt;/strong&gt;: Replication, partitioning, and consistency in distributed systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Batch and stream processing&lt;/strong&gt;: Different approaches to processing large datasets&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This is one of the most practical books on distributed systems I&amp;rsquo;ve read. Kleppmann does an excellent job of explaining complex concepts without getting too theoretical. The book is particularly strong in:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Papershelf</title>
+      <link>http://localhost:1313/papershelf/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/</guid>
+      <description>&lt;p&gt;A curated collection of research papers, articles, and books that have influenced my thinking and work. This is my digital bookshelf where I share resources that I find valuable and worth revisiting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;featured-papers--books&#34;&gt;Featured Papers &amp;amp; Books&lt;/h2&gt;&#xA;&lt;p&gt;For detailed reviews and my personal notes on papers, visit my &lt;a href=&#34;http://localhost:1313/papers/&#34;&gt;Papers section&lt;/a&gt; where I share in-depth analysis and insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;reading-philosophy&#34;&gt;Reading Philosophy&lt;/h2&gt;&#xA;&lt;p&gt;I believe in:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deep reading&lt;/strong&gt;: Taking detailed notes and reflecting on key insights&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Connecting ideas&lt;/strong&gt;: Finding relationships between different papers and concepts&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Practical application&lt;/strong&gt;: Understanding how research applies to real-world problems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sharing knowledge&lt;/strong&gt;: Making research accessible through clear explanations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;current-areas-of-interest&#34;&gt;Current Areas of Interest&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distributed Systems&lt;/strong&gt;: Consensus algorithms, consistency models, fault tolerance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database Systems&lt;/strong&gt;: Storage engines, query optimization, transaction processing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;System Design&lt;/strong&gt;: Scalability patterns, performance optimization, reliability&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software Engineering&lt;/strong&gt;: Code quality, testing strategies, development practices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Visit the &lt;a href=&#34;http://localhost:1313/papers/&#34;&gt;Papers section&lt;/a&gt; for detailed reviews and notes on specific papers.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Portfolio Blog</title>
+      <link>http://localhost:1313/blog/welcome/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>&lt;p&gt;This is my first blog post on my new portfolio website! I&amp;rsquo;m excited to share my journey in software engineering, system design, and technology.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-can-expect&#34;&gt;What You Can Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be writing about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical Deep Dives&lt;/strong&gt;: Exploring complex topics in software engineering&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;System Design&lt;/strong&gt;: Sharing insights about building scalable systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programming Tips&lt;/strong&gt;: Practical advice and best practices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Career Insights&lt;/strong&gt;: Lessons learned in the tech industry&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tool Reviews&lt;/strong&gt;: Evaluating new technologies and frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-im-writing&#34;&gt;Why I&amp;rsquo;m Writing&lt;/h2&gt;&#xA;&lt;p&gt;Writing helps me:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Google File System</title>
+      <link>http://localhost:1313/papershelf/google-file-system/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/google-file-system/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;GFS is a scalable distributed file system for large distributed data-intensive applications. It provides fault tolerance while running on inexpensive commodity hardware, and delivers high aggregate performance to a large number of clients.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Component failures are the norm&lt;/strong&gt;: Design assumes constant hardware failures&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Huge files by traditional standards&lt;/strong&gt;: Optimized for multi-GB files&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Append-heavy workloads&lt;/strong&gt;: Most files are mutated by appending new data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Co-designing applications and file system&lt;/strong&gt;: Applications and file system API evolved together&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This paper was groundbreaking because it showed how to build a reliable distributed file system using commodity hardware. Key design decisions that made this work:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MapReduce: Simplified Data Processing on Large Clusters</title>
+      <link>http://localhost:1313/papershelf/mapreduce/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/mapreduce/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;MapReduce is a programming model and implementation for processing and generating large datasets. Users specify a map function that processes key/value pairs and a reduce function that merges all intermediate values associated with the same intermediate key.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Simple programming model&lt;/strong&gt;: Developers only need to write map and reduce functions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automatic parallelization&lt;/strong&gt;: The framework handles distribution, fault tolerance, and load balancing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fault tolerance&lt;/strong&gt;: Handles machine failures transparently by re-executing tasks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Locality optimization&lt;/strong&gt;: Moves computation to data rather than data to computation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This paper is remarkable for how it simplified distributed computing. Before MapReduce, writing distributed programs was extremely complex. Key innovations:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

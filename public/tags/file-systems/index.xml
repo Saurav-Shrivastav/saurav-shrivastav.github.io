@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>File-Systems on Saurav Shrivastav</title>
+    <link>http://localhost:1313/tags/file-systems/</link>
+    <description>Recent content in File-Systems on Saurav Shrivastav</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/file-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Google File System</title>
+      <link>http://localhost:1313/papershelf/google-file-system/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/google-file-system/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;GFS is a scalable distributed file system for large distributed data-intensive applications. It provides fault tolerance while running on inexpensive commodity hardware, and delivers high aggregate performance to a large number of clients.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Component failures are the norm&lt;/strong&gt;: Design assumes constant hardware failures&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Huge files by traditional standards&lt;/strong&gt;: Optimized for multi-GB files&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Append-heavy workloads&lt;/strong&gt;: Most files are mutated by appending new data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Co-designing applications and file system&lt;/strong&gt;: Applications and file system API evolved together&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This paper was groundbreaking because it showed how to build a reliable distributed file system using commodity hardware. Key design decisions that made this work:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

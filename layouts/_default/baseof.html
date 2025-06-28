@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    
+    {{ $css := resources.Get "css/main.css" }}
+    {{ $css = $css | resources.Minify }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicon.svg" | relURL }}">
+    <meta name="theme-color" content="#28a745">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="{{ "/" | relURL }}" class="logo">{{ .Site.Title }}</a>
+                <nav>
+                    <ul>
+                        {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>{{ .Site.Params.author }}</h4>
+                    <p>{{ .Site.Params.description }}</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="mailto:sauravsrivastav103@gmail.com" title="Email">Email</a>
+                        <a href="https://github.com/Saurav-Shrivastav" title="GitHub" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/sauravsrivastav" title="LinkedIn" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/_saurav_23" title="Twitter" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</p>
+                <p>Built with <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+            </div>
+        </div>
+    </footer>
+
+    {{ $js := resources.Get "js/main.js" }}
+    {{ $js = $js | resources.Minify }}
+    <script src="{{ $js.RelPermalink }}"></script>
+</body>
+</html>

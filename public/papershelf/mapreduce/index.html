@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapReduce: Simplified Data Processing on Large Clusters | Saurav Shrivastav</title>
+    <meta name="description" content="Revolutionary approach to processing large datasets that spawned numerous big data frameworks.">
+    <meta name="author" content="Saurav Shrivastav">
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.css">
+    
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">Saurav Shrivastav</a>
+                <nav>
+                    <ul>
+                        
+                        <li><a href="/">Home</a></li>
+                        
+                        <li><a href="/blog/">Blog</a></li>
+                        
+                        <li><a href="/papershelf/">Papershelf</a></li>
+                        
+                        <li><a href="/about/">About</a></li>
+                        
+                        <li><a href="/contact/">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+<h1>MapReduce: Simplified Data Processing on Large Clusters</h1>
+
+
+<h2 id="summary">Summary</h2>
+<p>MapReduce is a programming model and implementation for processing and generating large datasets. Users specify a map function that processes key/value pairs and a reduce function that merges all intermediate values associated with the same intermediate key.</p>
+<h2 id="key-insights">Key Insights</h2>
+<ul>
+<li><strong>Simple programming model</strong>: Developers only need to write map and reduce functions</li>
+<li><strong>Automatic parallelization</strong>: The framework handles distribution, fault tolerance, and load balancing</li>
+<li><strong>Fault tolerance</strong>: Handles machine failures transparently by re-executing tasks</li>
+<li><strong>Locality optimization</strong>: Moves computation to data rather than data to computation</li>
+</ul>
+<h2 id="my-notes">My Notes</h2>
+<p>This paper is remarkable for how it simplified distributed computing. Before MapReduce, writing distributed programs was extremely complex. Key innovations:</p>
+<ol>
+<li><strong>Abstraction</strong>: Hide the complexity of distribution behind a simple functional interface</li>
+<li><strong>Fault tolerance</strong>: Automatic handling of node failures through task re-execution</li>
+<li><strong>Scalability</strong>: Demonstrated on clusters of thousands of machines</li>
+</ol>
+<p>The paper spawned an entire ecosystem - Hadoop, Spark, and many other big data frameworks all trace their lineage back to this work.</p>
+<p>What&rsquo;s particularly clever is how they turned distributed computing into a well-understood functional programming pattern that most developers already knew.</p>
+<h2 id="why-this-paper-matters">Why This Paper Matters</h2>
+<p>MapReduce democratized large-scale data processing. It enabled companies without Google&rsquo;s engineering resources to process big data effectively.</p>
+<h2 id="related-work">Related Work</h2>
+<ul>
+<li>&ldquo;Apache Hadoop: The Definitive Guide&rdquo;</li>
+<li>&ldquo;Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing&rdquo; (Spark)</li>
+<li>&ldquo;Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks&rdquo;</li>
+</ul>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Saurav Shrivastav</h4>
+                    <p>Personal portfolio and blog</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        
+                        <li><a href="/">Home</a></li>
+                        
+                        <li><a href="/blog/">Blog</a></li>
+                        
+                        <li><a href="/papershelf/">Papershelf</a></li>
+                        
+                        <li><a href="/about/">About</a></li>
+                        
+                        <li><a href="/contact/">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="mailto:your.email@example.com" title="Email">Email</a>
+                        <a href="https://github.com/yourusername" title="GitHub" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/yourprofile" title="LinkedIn" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/yourusername" title="Twitter" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Saurav Shrivastav. All rights reserved.</p>
+                <p>Built with <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="/js/main.min.js"></script>
+</body>
+</html>

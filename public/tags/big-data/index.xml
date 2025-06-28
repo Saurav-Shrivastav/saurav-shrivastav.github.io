@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big-Data on Saurav Shrivastav</title>
+    <link>http://localhost:1313/tags/big-data/</link>
+    <description>Recent content in Big-Data on Saurav Shrivastav</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/big-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MapReduce: Simplified Data Processing on Large Clusters</title>
+      <link>http://localhost:1313/papershelf/mapreduce/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papershelf/mapreduce/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;MapReduce is a programming model and implementation for processing and generating large datasets. Users specify a map function that processes key/value pairs and a reduce function that merges all intermediate values associated with the same intermediate key.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Simple programming model&lt;/strong&gt;: Developers only need to write map and reduce functions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automatic parallelization&lt;/strong&gt;: The framework handles distribution, fault tolerance, and load balancing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fault tolerance&lt;/strong&gt;: Handles machine failures transparently by re-executing tasks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Locality optimization&lt;/strong&gt;: Moves computation to data rather than data to computation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This paper is remarkable for how it simplified distributed computing. Before MapReduce, writing distributed programs was extremely complex. Key innovations:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ if .Data.Pages }}
+<ul class="blog-list">
+    {{ range .Data.Pages }}
+    <li class="blog-item">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="blog-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ if .Params.tags }}
+            | Tags: 
+            {{ range $index, $tag := .Params.tags }}
+                {{ if $index }}, {{ end }}
+                <span class="tag">{{ $tag }}</span>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ if .Params.description }}
+        <div class="blog-excerpt">{{ .Params.description }}</div>
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}

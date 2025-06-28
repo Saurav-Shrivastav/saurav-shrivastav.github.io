@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="blog-intro">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</div>
+
+<!-- Blog posts list section -->
+<section class="blog-posts">
+    {{ if .Data.Pages }}
+    <div class="blog-highlights">
+        {{ range .Data.Pages }}
+        <div class="blog-item">
+            <div class="blog-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+            {{ if .Params.description }}
+            <p class="blog-description">{{ .Params.description }}</p>
+            {{ else if .Summary }}
+            <p class="blog-description">{{ .Summary }}</p>
+            {{ end }}
+            <div class="blog-actions">
+                <a href="{{ .Permalink }}" class="read-post">Read Post →</a>
+            </div>
+            <div class="blog-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.tags }}
+                | Tags: 
+                {{ range $index, $tag := .Params.tags }}
+                    {{ if $index }}, {{ end }}
+                    <span class="tag">{{ $tag }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ else }}
+    <p>No blog posts yet. Check back soon!</p>
+    {{ end }}
+</section>
+{{ end }}

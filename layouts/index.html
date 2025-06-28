@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="hero">
+    {{ .Content }}
+</div>
+
+<!-- Recent Blog Posts -->
+<section class="recent-posts">
+    <h2>Recent Blog Posts</h2>
+    {{ $posts := where .Site.RegularPages "Section" "blog" }}
+    {{ $recentPosts := first 3 $posts }}
+    {{ if $recentPosts }}
+    <ul class="recent-posts-list">
+        {{ range $recentPosts }}
+        <li class="recent-post-item">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <div class="post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.tags }}
+                | Tags: 
+                {{ range $index, $tag := .Params.tags }}
+                    {{ if $index }}, {{ end }}
+                    <span class="tag">{{ $tag }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ if .Params.description }}
+            <p class="post-description">{{ .Params.description }}</p>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    <p class="view-all"><a href="/blog/">View all posts →</a></p>
+    {{ else }}
+    <p>No blog posts yet. Check back soon!</p>
+    {{ end }}
+</section>
+
+<!-- Recent Papers -->
+<section class="recent-papers">
+    <h2>Recent Papers & Reading</h2>
+    {{ $papers := where .Site.RegularPages "Section" "papershelf" }}
+    {{ $recentPapers := first 3 $papers }}
+    {{ if $recentPapers }}
+    <div class="paper-highlights">
+        {{ range $recentPapers }}
+        <div class="paper-item">
+            <div class="paper-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+            <div class="paper-authors">{{ delimit .Params.authors ", " }}</div>
+            <div class="paper-venue">{{ .Params.venue }}, {{ .Params.year }}</div>
+            <p>{{ .Params.description }}</p>
+            {{ if .Params.paperUrl }}
+            <a href="{{ .Params.paperUrl }}" target="_blank" class="paper-link">Read Original Paper →</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    <p class="view-all"><a href="/papershelf/">View all papers →</a></p>
+    {{ else }}
+    <p>No paper reviews yet. Check back soon!</p>
+    {{ end }}
+</section>
+{{ end }}

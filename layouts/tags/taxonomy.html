@@ -1,0 +1,30 @@
+{{ define "main" }}
+<h1>Posts tagged with "{{ .Title }}"</h1>
+<p>{{ .Pages.Len }} {{ if eq .Pages.Len 1 }}post{{ else }}posts{{ end }} found with this tag.</p>
+
+<div class="debug-info">
+    <p>Debug: Pages found: {{ .Pages.Len }}</p>
+    <p>Debug: Context type: {{ printf "%T" . }}</p>
+</div>
+
+{{ if .Pages }}
+<div class="tagged-content">
+    {{ range .Pages }}
+    <article class="content-item">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p>Section: {{ .Section }}</p>
+        <p>Date: {{ .Date.Format "January 2, 2006" }}</p>
+        {{ if .Params.description }}
+        <p>{{ .Params.description }}</p>
+        {{ end }}
+    </article>
+    {{ end }}
+</div>
+{{ else }}
+<p>No content found with this tag.</p>
+{{ end }}
+
+<div class="navigation-links">
+    <a href="{{ "/tags/" | relURL }}" class="back-to-tags">← Browse All Tags</a>
+</div>
+{{ end }}

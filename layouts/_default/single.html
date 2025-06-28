@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ if and (not .Date.IsZero) (eq .Section "blog") }}
+<div class="blog-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ if .Params.tags }}
+    | Tags: 
+    {{ range $index, $tag := .Params.tags }}
+        {{ if $index }}, {{ end }}
+        <span class="tag">{{ $tag }}</span>
+    {{ end }}
+    {{ end }}
+</div>
+{{ end }}
+
+{{ .Content }}
+{{ end }}

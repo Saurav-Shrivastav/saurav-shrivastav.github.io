@@ -1,0 +1,52 @@
+{{ define "main" }}
+<!-- Papershelf intro section -->
+<div class="papershelf-intro">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</div>
+
+<!-- Papers list section -->
+<section class="papershelf-list">
+    <h2>My Paper Notes & Reviews</h2>
+    {{ if .Data.Pages }}
+    <div class="paper-highlights">
+        {{ range .Data.Pages }}
+        <div class="paper-item">
+            <div class="paper-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+            {{ if .Params.authors }}
+            <div class="paper-authors">{{ delimit .Params.authors ", " }}</div>
+            {{ end }}
+            {{ if or .Params.venue .Params.year }}
+            <div class="paper-venue">
+                {{ if .Params.venue }}{{ .Params.venue }}{{ end }}
+                {{ if and .Params.venue .Params.year }}, {{ end }}
+                {{ if .Params.year }}{{ .Params.year }}{{ end }}
+            </div>
+            {{ end }}
+            {{ if .Params.description }}
+            <p>{{ .Params.description }}</p>
+            {{ end }}
+            <div class="paper-actions">
+                <a href="{{ .Permalink }}" class="view-notes">Read My Notes →</a>
+                {{ if .Params.paperUrl }}
+                <a href="{{ .Params.paperUrl }}" target="_blank" class="paper-link">Original Paper →</a>
+                {{ end }}
+            </div>
+            <div class="paper-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.tags }}
+                | Tags: 
+                {{ range $index, $tag := .Params.tags }}
+                    {{ if $index }}, {{ end }}
+                    <span class="tag">{{ $tag }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ else }}
+    <p>No paper reviews yet. Check back soon!</p>
+    {{ end }}
+</section>
+{{ end }}
