@@ -3,7 +3,7 @@ title = "About"
 date = 2025-06-28T00:00:00Z
 +++
 
-<div class="about-header">
+<!-- <div class="about-header">
     <div class="about-text">
         <p>I'm <span class="highlight-name">Saurav Shrivastav</span>, a software engineer who believes that the best way to understand complex systems is to build them. Currently working on Hadoop infrastructure at LinkedIn in Bangalore, I've spent my career scaling distributed systems and contributing to open source projects.</p>
     </div>
@@ -53,4 +53,44 @@ While I'm deeply rooted in distributed systems and infrastructure, I'm excited a
 
 I created this site to document my learning journey and share insights from working with distributed systems at scale. From my early days figuring out internships to now handling production systems at LinkedIn, I've learned that sharing knowledge makes all of us better engineers.
 
-Whether you're here for the technical blog posts, the research paper deep dives, or just curious about the journey, I hope you find something useful for your own path in software engineering.
+Whether you're here for the technical blog posts, the research paper deep dives, or just curious about the journey, I hope you find something useful for your own path in software engineering. -->
+
+
+<div class="about-header">
+    <div class="about-text">
+        <p>I'm <span class="highlight-name">Saurav Shrivastav</span>, a software engineer who believes that the best way to understand complex systems is to build them. Currently, I engineer Hadoop/YARN infrastructure at **LinkedIn** in Bangalore, where I design distributed orchestration platforms to manage a fleet of **80,000+ nodes**.</p>
+    </div>
+    <div class="about-image">
+        <img src="/images/profile.jpg" alt="Saurav Shrivastav" class="profile-photo">
+    </div>
+</div>
+
+## My Journey
+
+My journey into software engineering began at **Thapar Institute of Engineering & Technology**, where I specialized in **Cyber-Security and Networking**. During college, I led the **Google Developer Student Club (GDSC)**, managing a 1500+ member community and building internal tooling projects with automated CI/CD pipelines.
+
+A pivotal moment in my career was my time as a **Google Summer of Code Scholar** with **PostgreSQL**. Working on a major open-source database system opened my eyes to the world of distributed data and high-performance backend architecture. This foundation led me to LinkedIn—first as an intern and eventually to my current full-time role as a **Software Engineer**.
+
+## What I Build Today
+
+At LinkedIn, I solve high-scale infrastructure problems by building software-defined automation:
+- **Distributed Orchestration**: I architected the **Worker RTF** system using **Temporal and gRPC**, creating a distributed state machine to manage node lifecycles and recover **~$14M in underutilized hardware**.
+- **Capacity Schedulers**: I engineered the **YARN Forecast-to-Delivery (F2D)** scheduler, automating the delivery of 1,500+ host expansions to power mission-critical features like LinkedIn's Job Recommendations.
+- **Health Microservices**: I developed a zone-aware **Worker Health Validation Service** using Python and Prometheus to prevent faulty node promotions in massive clusters.
+- **Platform Modernization**: I lead core reliability upgrades, migrating internal platforms to **Flask 3.x and SQLAlchemy 2.x** to ensure atomic data writes and long-term service resilience.
+
+## My Philosophy
+
+I believe the most robust solutions come from understanding both the **theoretical foundations** and the **practical constraints** of scale. Whether it is resolving distributed race conditions in node assignment or mentoring junior engineers, I try to balance system complexity with operational simplicity. I am convinced that the best way to grow as an engineer is to get your hands dirty with real-world problems at scale while staying grounded in computer science fundamentals.
+
+## Beyond Code
+
+When I'm not debugging distributed systems, you'll find me:
+- **On the field**: Playing football or badminton.
+- **On the road**: Exploring the mountains on my motorcycle—with recent rides to Coonoor, Yercaud, and the Spiti Valley.
+- **Deep in papers**: Reading research on **Consensus Protocols (Raft/Paxos)** and high-performance storage internals.
+- **In the AI Lab**: Currently building **Agentic Workflows** with **LangGraph** to explore the future of self-healing infrastructure.
+
+---
+
+I created this space to share my journey—from my early days in open source to managing one of the world's largest Hadoop deployments. I hope my technical deep-dives and paper reviews help you on your own engineering path.
