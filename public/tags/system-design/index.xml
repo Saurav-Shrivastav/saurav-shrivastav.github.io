@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>System-Design on Saurav Shrivastav</title>
+    <title>System Design on Saurav Shrivastav</title>
     <link>http://localhost:1313/tags/system-design/</link>
-    <description>Recent content in System-Design on Saurav Shrivastav</description>
+    <description>Recent content in System Design on Saurav Shrivastav</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 19:26:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Designing Data-Intensive Applications</title>
-      <link>http://localhost:1313/papershelf/designing-data-intensive-applications/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papershelf/designing-data-intensive-applications/</guid>
-      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;This book provides a comprehensive guide to building reliable, scalable, and maintainable applications that handle large amounts of data. Kleppmann covers the fundamental principles behind distributed data systems and the trade-offs involved in their design.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-insights&#34;&gt;Key Insights&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data models and query languages&lt;/strong&gt;: Understanding the strengths and weaknesses of relational, document, and graph databases&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage and retrieval&lt;/strong&gt;: How databases store data on disk and in memory, including indexing strategies&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distributed data challenges&lt;/strong&gt;: Replication, partitioning, and consistency in distributed systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Batch and stream processing&lt;/strong&gt;: Different approaches to processing large datasets&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-notes&#34;&gt;My Notes&lt;/h2&gt;&#xA;&lt;p&gt;This is one of the most practical books on distributed systems I&amp;rsquo;ve read. Kleppmann does an excellent job of explaining complex concepts without getting too theoretical. The book is particularly strong in:&lt;/p&gt;</description>
+      <title>Introduction to AI Engineering</title>
+      <link>http://localhost:1313/blog/ai-eng-intro/</link>
+      <pubDate>Tue, 23 Dec 2025 19:26:28 +0530</pubDate>
+      <guid>http://localhost:1313/blog/ai-eng-intro/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been exploring AI Engineering recently—a field that sits right at the intersection of software engineering and data science. This post is the first in a series where I&amp;rsquo;ll share my notes and learnings as I dig deeper into what it takes to build production-ready AI systems.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-ai-engineering&#34;&gt;What is AI Engineering?&lt;/h1&gt;&#xA;&lt;p&gt;AI Engineering is about making AI work in the real world. It bridges the gap between theoretical research and practical application. While data science focuses on model accuracy and discovery, AI engineering focuses on &lt;strong&gt;reliability, scalability, and maintainability&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

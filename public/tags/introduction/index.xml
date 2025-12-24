@@ -6,14 +6,14 @@
     <description>Recent content in Introduction on Saurav Shrivastav</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 19:26:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to My Portfolio Blog</title>
-      <link>http://localhost:1313/blog/welcome/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/welcome/</guid>
-      <description>&lt;p&gt;This is my first blog post on my new portfolio website! I&amp;rsquo;m excited to share my journey in software engineering, system design, and technology.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-can-expect&#34;&gt;What You Can Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be writing about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical Deep Dives&lt;/strong&gt;: Exploring complex topics in software engineering&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;System Design&lt;/strong&gt;: Sharing insights about building scalable systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programming Tips&lt;/strong&gt;: Practical advice and best practices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Career Insights&lt;/strong&gt;: Lessons learned in the tech industry&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tool Reviews&lt;/strong&gt;: Evaluating new technologies and frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-im-writing&#34;&gt;Why I&amp;rsquo;m Writing&lt;/h2&gt;&#xA;&lt;p&gt;Writing helps me:&lt;/p&gt;</description>
+      <title>Introduction to AI Engineering</title>
+      <link>http://localhost:1313/blog/ai-eng-intro/</link>
+      <pubDate>Tue, 23 Dec 2025 19:26:28 +0530</pubDate>
+      <guid>http://localhost:1313/blog/ai-eng-intro/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been exploring AI Engineering recently—a field that sits right at the intersection of software engineering and data science. This post is the first in a series where I&amp;rsquo;ll share my notes and learnings as I dig deeper into what it takes to build production-ready AI systems.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-ai-engineering&#34;&gt;What is AI Engineering?&lt;/h1&gt;&#xA;&lt;p&gt;AI Engineering is about making AI work in the real world. It bridges the gap between theoretical research and practical application. While data science focuses on model accuracy and discovery, AI engineering focuses on &lt;strong&gt;reliability, scalability, and maintainability&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

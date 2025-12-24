@@ -6,7 +6,14 @@
     <description>Recent content in Blog on Saurav Shrivastav</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 12:26:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to AI Engineering</title>
+      <link>http://localhost:1313/blog/ai-eng-intro/</link>
+      <pubDate>Wed, 24 Dec 2025 12:26:28 +0530</pubDate>
+      <guid>http://localhost:1313/blog/ai-eng-intro/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been exploring AI Engineering recently—a field that sits right at the intersection of software engineering and data science. This post is the first in a series where I&amp;rsquo;ll share my notes and learnings as I dig deeper into what it takes to build production-ready AI systems.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-ai-engineering&#34;&gt;What is AI Engineering?&lt;/h1&gt;&#xA;&lt;p&gt;AI Engineering is about making AI work in the real world. It bridges the gap between theoretical research and practical application. While data science focuses on model accuracy and discovery, AI engineering focuses on &lt;strong&gt;reliability, scalability, and maintainability&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -7,7 +7,6 @@
 
 <!-- Papers list section -->
 <section class="papershelf-list">
-    <h2>My Paper Notes & Reviews</h2>
     {{ if .Data.Pages }}
     <div class="paper-highlights">
         {{ range .Data.Pages }}
@@ -45,8 +44,6 @@
         </div>
         {{ end }}
     </div>
-    {{ else }}
-    <p>No paper reviews yet. Check back soon!</p>
     {{ end }}
 </section>
 {{ end }}
